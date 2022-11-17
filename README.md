@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Vento App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+Es una app de presentación de una marca de diseño textil de trajes de baño.
 
-### `npm start`
+## Contenido
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Se presenta la imagen de marca, los productos con sus detalles. Y también un carrito para realizar compras.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### App
 
-### `npm test`
+En la app.js se presentan el componente del navegador y todas sus rutas a las diferentes vistas del proyecto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screens
 
-### `npm run build`
+Estas son las "vistas" que componen el proyecto. 
+Empezando en el Home donde se presenta la marca y el catalogo completo de productos.
+Desde el navegador se puede seleccionar la categorias de los productos, redirigiendose a una nueva vista llamada Catalogo.
+La navegabilidad tambien permite acceder a los items tanto desde el home como desde las categorias para mostrar detalles de los productos y cargarlos finalmente al carrito de compras nombrado Cart.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Componentes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Se presentan componentes de Navbar, los items de los productos con sus contenedores, los detalles de los productos con sus contenedores, como también botones de las tarjetas de producto y el carrito con sus respectivas funcionalidades, que se extienden a toda la aplicacion con un contexto de carrito.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Contexto
 
-### `npm run eject`
+En la app se implemento un contexto de carrito que permite integrar toda la funcionalidad de la misma.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Tecnologias Usadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Node JS
+React JS
+Bootstrap React
+Bootstrap Icons
+Sass
+Firebase
+Cloudinary
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Skills
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Paciencia
+Disciplina
+Compromiso
+Magia
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* GRACIAS ! *
