@@ -46,4 +46,4 @@ Disciplina
 Compromiso
 Magia
 
-* GRACIAS ! *
+ GRACIAS!
